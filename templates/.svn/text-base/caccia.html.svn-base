@@ -1,0 +1,45 @@
+<div class="backgr_buttons_iniziocaccia">
+</div>
+
+<div class="caption_block">
+	<div class="caption_content">
+		<p>
+			"Science Hunting" è un gioco di esplorazione che si svolge nella vita reale e può
+			richiedere l'attraversamento di strade trafficate della città o la sosta nelle tappe
+			in aree vicino al traffico urbano. Vi sollecitiamo a mostrare la massima attenzione
+			e prudenza durante lo svolgimento, soprattutto se tra i partecipanti sono presenti
+			bambini.
+		</p>
+		<p>
+			Premendo il tasto sottostante voi confermate di aver compreso i rischi collegati
+			allo svolgimento del gioco e che in nessun modo Frascati Scienza è responsabile di
+			smarrimenti, danneggiamenti a materiali o ferite di qualunque tipo, tra i partecipanti
+			al gioco.
+		</p>
+		<div class="greybar">
+			Istruzioni
+		</div>
+		<p>
+			Segui le indicazioni dei video, raggiungi le tappe del gioco e cerca i QRcode per
+			trovare i nuovi indizi.
+		</p>
+		<p>
+			Ad ogni tappa dovrai rispondere ad un semplice quiz.
+		</p>
+		<p>
+			Un cronometro registrerà il tempo passato dal momento della domanda a quando darai
+			la risposta giusta.
+		</p>
+
+		<p>
+			Ad ogni risposta sbagliata il cronometro avanzerà di 30 secondi.
+		</p>
+		<p>
+			La somma dei tempi di tutte le tappe ti consentirà di entrare in classifica tra
+			i migliori cacciatori di Scienza!
+		</p>
+		<div class="readmore cacciatesoro_but vai" id="vai">
+			Vai alla caccia
+		</div>
+	</div>
+</div>

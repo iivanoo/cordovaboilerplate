@@ -1,0 +1,27 @@
+	<div class="greybar">
+		 Notte dei ricercatori
+	</div>
+
+<!-- borowse date item -->
+<div class="sfoglia_wrapper">
+	<div class="block_sfoglia">
+		<div class="day_back"><div class="testoinutile">Precedente</div><img src="img/but_back_day.png"></div>
+		<div class="date"> 21 SETTEMBRE </div>
+		<div class="day_next"><img src="img/but_go.png"><div class="testoinutile">Successivo</div></div>
+	</div>
+</div>
+<!-- browse date item -->
+
+	<div id="notte_wrapper">
+	</div>
+	
+	<div class="greybar">
+		 Altri eventi
+	</div>
+
+	<div id="altri_wrapper">
+	</div>
+	
+
+	</div>
+	<!-- row item -->

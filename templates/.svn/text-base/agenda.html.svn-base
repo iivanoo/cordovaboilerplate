@@ -1,0 +1,27 @@
+<div id="agenda_empty" class="nonvisibile"><p>
+  Durante la navigazione dell'app ti ha colpito particolarmente l'attività di un ente di ricerca e vorresti tenerlo "sott'occhio"?<br> Hai scoperto un appuntamento a cui vorresti ricordarti di partecipare?</p><p>Questa sezione dell'app ti aiuterà a tenere sotto traccia i tuoi argomenti preferiti. <br>Per aggiungere un evento o un ente a questa ti basterà semplicemente selezionare l'icona dell'agenda con il più accanto che compare nel footer di ogni pagina degli enti e degli eventi.</p>
+  <strong>Buona Selezione!</strong>
+</div>
+
+<div class="agenda_title">
+Doppio tap per cancellare</div> 
+
+
+<!-- 
+
+<div id="info_agenda">
+	Doppio tap per cancellare
+</div>
+
+-->
+
+<div id="agenda_wrapper_content">
+
+
+</div>
+
+<div class="agenda_dx_selectors_column">
+	<div class="linguetta" id="ling_eventi"><p class="ruotatesto">Eventi</p></div>
+	<div class="linguetta"id="ling_enti"><p class="ruotatesto">Enti</p></div>
+</div>
+

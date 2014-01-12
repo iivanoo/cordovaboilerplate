@@ -1,0 +1,171 @@
+
+
+<!-- row item -->
+<div class="row_wrapper" id="asi">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		ASI
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="cnr">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		CNR - ARTOV
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="enea">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		ENEA - Frascati
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="esa">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		ESA - ESRIN
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="inafiaps">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		INAF - IAPS
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="inafoar">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		INAF - OAR
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="infn">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		INFN - LNF
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="ingv">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		INGV
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="sapienza">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		Sapienza - Università di Roma
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="tor">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		Università degli studi di Roma - Tor Vergata
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="romatre">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		Università degli studi di Roma - Roma Tre
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="frascati">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		Comune di Frascati
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="regione">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		Regione Lazio
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="provincia">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		Provincia di Roma
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="grottaferrata">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		Comune di Grottaferrata
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="telethon">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		TELETHON
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="eta">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		Associazione Eta Carinae
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="tuscolana">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		Associazione tuscolana di astronomia
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="geco">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		G.Eco
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="accatagliato">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		Accatagliato 
+		</p>					
+	</div>
+</div>
+<!-- row item -->
+<div class="row_wrapper" id="arte">
+	<div class="textlist_wrapper_legenda">
+		<p class="textlist_title" style="margin-left: 5px; margin-bottom: 20px;">
+		Associazione culturale Arte e Scienza
+		</p>					
+	</div>
+</div>
+<!-- row item -->

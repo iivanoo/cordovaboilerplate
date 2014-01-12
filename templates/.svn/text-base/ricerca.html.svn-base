@@ -1,0 +1,52 @@
+<div id="wrapper_ricerca">	
+	
+	<input id="keyword" name="keyword" type="text" placeholder="Chiave di ricerca ..."/>
+	
+	<div class="ricerca_t2">
+		Tag
+	</div>
+	<select id="tag" class="tag">
+	  <option value=""></option>
+		<option value="ad_giovani">Giovani</option>
+		<option value="ad_pubblicogenerale">Pubblico Generale</option>
+		<option value="ad_elementari">Scuole Elementari</option>
+		<option value="ad_medie">Scuole Medie</option>
+		<option value="ad_superiori">Scuole Superiori</option>
+		<option value="ad_qrcode">QR Code</option>
+		<option value="ad_aperitivi">Aperitivo Scientifico</option>
+		<option value="ad_giochiscientifici">Giochi Scientifici</option>
+		<option value="ad_laboratori">Laboratorio</option>
+		<option value="ad_seminari">Seminario</option>
+	</select>
+	<img class="open_drop" src="img/open_drop.png">
+
+
+<div class="ricerca_t2">
+		Organizzato da
+	</div>
+	<select id="organizzatore" class="organizzatore">
+	  <option value=""></option>
+	  {{#each enti}}
+		<option value="{{ __id }}">{{ titolo }}</option>
+  	  {{/each}}
+	</select>
+	<img class="open_drop" src="img/open_drop.png">
+	
+	
+	<div class="ricerca_t2">
+		Dal
+	</div>
+	<div class="data_ricerca">
+	<input id="da" name="a" type="date" placeholder="aaaa-mm-gg"/>
+	<img class="open_drop" src="img/open_drop.png">
+	<div class="ricerca_t2">
+		al
+	</div>
+	<input id="a" name="a" type="date" placeholder="aaaa-mm-gg"/>
+	<img class="open_drop" src="img/open_drop.png">
+	</div>
+
+	<div id="ricerca_button" >Cerca</div>
+	
+</div>
+	

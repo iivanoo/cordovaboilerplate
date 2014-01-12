@@ -1,0 +1,23 @@
+<div class="default_coverimage_block">
+			<video id="video" controls="controls"> 
+				<source src="{{ video }}" type="video/mp4"/>
+			</video>
+		</div>
+		<div class="greybar">
+		 {{ titolo }}
+		 </div>
+<div class="caption_block">
+		<div class="caption_content">
+			{{#each intro}}
+				<p> {{ this }}</p>
+  			{{/each}}
+			
+{{#if finale}}
+	<div class="readmore cacciatesoro_but vai" id="vaiFine">Guarda il tuo risultato</div>
+{{else}}
+	<div class="readmore cacciatesoro_but vai" id="vaiDomanda">Vai alla domanda</div>
+{{/if}}	
+
+	</div>
+</div>
+

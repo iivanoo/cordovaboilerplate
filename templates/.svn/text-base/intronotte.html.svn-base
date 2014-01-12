@@ -1,0 +1,18 @@
+	<div class="default_coverimage_block">
+		<img src="img/notte_ric_cover.jpg" onerror="ImgError(this);">
+	</div>
+	<div class="caption_block">
+		<div class="caption_content">
+			<p>
+				"Una “caccia alla scienza”, un flash mob, una settimana di “viaggi scientifici” tra i beni architettonici e culturali di Roma e dintorni e poi caffè e aperitivi scientifici, esperimenti a cielo aperto, musei universitari e sedi degli enti internazionali di ricerca aperti a tutti. È la <strong>“Settimana della Scienza”</strong> organizzata dall’Associazione degli enti di ricerca del polo tecnologico tuscolano: <strong>Frascati Scienza, in collaborazione con l’Assessorato alla Cultura e Politiche giovanili.</strong>
+Un’ottava edizione innovativa, che si terrà  dal  21  al 27 settembre 2013, tra  <strong>Roma e Frascati.</strong> "
+				
+				
+			</p>
+			<div class="readmore" id="continua_eventi">
+				
+					Eventi
+			
+			</div>
+		</div>
+	</div>

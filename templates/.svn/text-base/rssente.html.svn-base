@@ -1,0 +1,35 @@
+<!-- {{#if video}}
+	<div class="default_coverimage_block">
+			<video controls>
+			  <source src="{{ video }}" type="video/mp4">
+			</video>
+		</div>
+{{else}}
+	{{#if immagine}}
+		<div class="default_coverimage_block">
+		<img src="{{ immagine }}" onerror="ImgError(this);">
+	</div>
+	{{/if}}
+{{/if}}	
+		-->
+	
+	<!-- <div class="default_coverimage_block"> 
+	<div class="contattiTel">
+		<div class="half_button" id="tel"><img src="img/chiama_ico.png"><span class="text_half">Chiama</span></div>
+		<div class="half_button" id="mail"><img src="img/scrivi_ico.png"><span class="text_half">Scrivi</span></div>
+	</div>	-->
+
+	<div class="contatti">
+		<div class="contact_button"><img src="img/chiama_ico.png"><span class="text_contact">{{ telefono }}</span></div>
+		<div class="contact_button"><img src="img/scrivi_ico.png"><span class="text_contact">{{ email }}</span></div>
+	</div>
+	<!--	</div> -->
+	
+	
+	<div class="greybar">
+		 Teniamoci in contatto
+	</div>
+		
+	<div class="rss_wrapper" id="rss_container">
+	
+	</div>
