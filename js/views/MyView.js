@@ -23,7 +23,7 @@ define(["jquery", "underscore", "backbone", "handlebars",
       template: Handlebars.compile(template),
 
       events: {
-        "touchend #ricerca_button": "cerca"
+        // "touchend #node_id": "handler"
       },
 
       render: function() {
