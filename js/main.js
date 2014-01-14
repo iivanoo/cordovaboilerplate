@@ -59,12 +59,12 @@ require(['underscore', 'backbone', 'router'],
           }
         }
         // delete all references to subViews
-        delete this.subViews;
+        this.subViews = null;
         // remove the view from the DOM
         this.remove();
         // remove references to the DOM element of the view (both jQuery and JS objects)
-        delete this.$el;
-        delete this.el;
+        this.$el = null;
+        this.el = null;
       };
 
       // function that will be called by the router every time a view must be removed from the DOM 

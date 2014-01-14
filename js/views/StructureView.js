@@ -15,7 +15,7 @@ define(["jquery", "underscore", "backbone", "handlebars",
 
       initialize: function(options) {
         // bind the back event to the goBack function
-        document.addEventListener("back", this.goBack());
+        //document.getElementById("back").addEventListener("back", this.goBack(), false);
       },
 
       template: Handlebars.compile(template),
@@ -25,10 +25,10 @@ define(["jquery", "underscore", "backbone", "handlebars",
         this.el.innerHTML = this.template({});
         // cache a reference to the content element
         this.contentElement = this.$el.find('#content')[0];
-        if(device.platform == "iOS") {
-          this.contentElement.parentNode.style.marginTop = "20px";
-          this.contentElement.parentNode.style.height = "calc(100% - 20px)";
-        }
+        // if(device.platform == "iOS") {
+        //   this.contentElement.parentNode.style.marginTop = "20px";
+        //   this.contentElement.parentNode.style.height = "calc(100% - 20px)";
+        // }
         return this;
       },
 
