@@ -67,7 +67,7 @@ require(['underscore', 'backbone', 'router'],
         this.el = null;
       };
 
-      // function that will be called by the router every time a view must be removed from the DOM 
+      // function that will be called by the router every time the app changes the page filling the screen of the device 
       Backbone.Router.prototype.changePage = function(page) {
         // close the current view
         if (this.currentView) {
