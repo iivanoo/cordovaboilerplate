@@ -1,12 +1,14 @@
-define(["jquery", "underscore", "backbone",
-		"models/MyModel"
-	],
-	function($, _, Backbone,
-		MyModel) {
+define(function(require) {
 
-		var MyCollection = Backbone.Collection.extend({
-			model: MyModel,
-		});
+	var $ = require("jquery");
+	var _ = require("underscore");
+	var Backbone = require("backbone");
+	var Handlebars = require("models/MyModel");
 
-		return MyCollection;
+	var MyCollection = Backbone.Collection.extend({
+		constructorName: "MyCollection",
+		model: MyModel
 	});
+
+	return MyCollection;
+});

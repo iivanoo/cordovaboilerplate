@@ -1,8 +1,12 @@
-define(["jquery", "underscore", "backbone"],
-	function($, _, Backbone) {
+define(function(require) {
 
-		var MyModel = Backbone.Model.extend({
-		});
+	var $ = require("jquery");
+	var _ = require("underscore");
+	var Backbone = require("backbone");
 
-		return MyModel;
+	var MyModel = Backbone.Model.extend({
+		constructorName: "MyModel"
 	});
+
+	return MyModel;
+});
