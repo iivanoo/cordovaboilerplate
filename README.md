@@ -7,10 +7,24 @@ The proposed boilerplate has been developed with **MODULARITY** and **PERFORMANC
 
 As a reference, give a look at the main.js file in '''www/js/main.js''', it contains:
 * configuration map for keeping all the used libraries organized and easily interchangeable
+* an emulate.sh script for automatically building the project in Sublime ([see here](http://www.ivanomalavolta.com/how-to-automatically-run-and-refresh-the-
+ripple-emulator-from-sublime-text/))
+* all Require dependencies are organized using the comfortable Require syntactic sugar ([see here](http://requirejs.org/docs/api.html#cjsmodule))
+* overridden the Backbone extend so that its objects can now be easily spotted in
+the Chrome heap profiler
 * a *close* method for closing each view and managing all its inner views and bound events
 * a *changePage* method for the Backbone Router that manages to switch between mobile app pages in a generic and reusable manner
 * generic function to show a web page within a Cordova application and checking if the user has an Internet connection
 * other useful functions are spread within the boilerplate, such as mobile-friendly CSS3 stylesheet, organization of the project in semantic directories (like: templates, js, img), etc.
+
+
+added the App global object,
+added the Utils module,
+refactored all the dependencies using the Require syntactic sugar (
+http://www.ericfeminella.com/blog/2012/05/17/organizing-require-js-depen
+dencies/ ),
+overridden the Backbone extend so that its objects can now be seen in
+the Chrome heap profiler (http://www.rombdn.com/)
 
 Please, if you find some bugs or aspects to be enhanced, drop be a line!
 
