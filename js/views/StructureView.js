@@ -17,11 +17,11 @@ define(function(require) {
     },
 
     initialize: function(options) {
+      // load the precompiled template
+      this.template = Utils.templates.structure;
       // bind the back event to the goBack function
       //document.getElementById("back").addEventListener("back", this.goBack(), false);
     },
-
-    template: Utils.templates.structure,
 
     render: function() {
       // load the template

@@ -17,6 +17,8 @@ define(function(require) {
     // },
 
     initialize: function() {
+      // load the precompiled template
+      this.template = Utils.templates.myview;
       // here we can register to inTheDOM or removing events
       //this.listenTo(this, "inTheDOM", functionName);
       // this.listenTo(this, "removing", functionName);
@@ -25,8 +27,6 @@ define(function(require) {
     },
 
     className: "content",
-
-    template: Utils.templates.myview,
 
     events: {
       // "touchend #node_id": "handler"

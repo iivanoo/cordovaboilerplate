@@ -16,6 +16,8 @@ define(function(require) {
       "map": "map"
     },
 
+    firstView: "myview",
+
     initialize: function(options) {
       this.currentView = undefined;
     },
@@ -47,7 +49,7 @@ define(function(require) {
         document.getElementsByTagName('body')[0].appendChild(this.structureView.render().el);
       }
       // go to first view
-      this.myView();
+      this.navigate(this.firstView, {trigger: true});
     },
 
   });
