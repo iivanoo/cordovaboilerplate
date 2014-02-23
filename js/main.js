@@ -1,12 +1,12 @@
 // here we put the paths to all the libraries and framework we will use
 require.config({
   paths: {
-    jquery: '../lib/zepto/zepto.min', // ../lib/jquery/jquery-2.0.3.min', 
+    jquery: '../lib/zepto/zepto', // ../lib/jquery/jquery', 
     underscore: '../lib/underscore/underscore',
     backbone: "../lib/backbone/backbone",
     text: '../lib/require/text',
     async: '../lib/require/async',
-    handlebars: '../lib/handlebars/handlebars-v1.2.0',
+    handlebars: '../lib/handlebars/handlebars',
     templates: '../templates',
     leaflet: '../lib/leaflet/leaflet',
     spin: '../lib/spin/spin.min',
@@ -18,10 +18,6 @@ require.config({
     },
     'underscore': {
       exports: '_'
-    },
-    'backbone': {
-      deps: ['jquery', 'underscore'],
-      exports: 'Backbone'
     },
     'handlebars': {
       exports: 'Handlebars'

@@ -23,12 +23,12 @@ Please, if you find some bugs or aspects to be enhanced, drop be a line!
 Used frameworks
 --------------
 
-* [Cordova 3.3.0](http://cordova.apache.org/): the platform for building native mobile applications using HTML, CSS and JavaScript
-* [Backbone 1.1.0](http://backbonejs.org/): a JavaScript MVC framework for giving structure to (mobile) web apps
-* [RequireJS 2.1.9](http://requirejs.org/): a JavaScript file and module loader for keeping your Javascript codebase modular and well organized
-* [Handlebars 1.2.0](http://handlebarsjs.com/): a minimal templating engine based on Mustache
-* [Zepto 1.1.2](http://zeptojs.com/): minimalist JavaScript library for DOM traversing, event handling, animations, etc.
-* [Leaflet 0.7.1](http://leafletjs.com): a Javascript library for embedding maps in your own web pages.
+* [Cordova 3.4.0](http://cordova.apache.org/): the platform for building native mobile applications using HTML5, CSS3 and JavaScript
+* [Backbone 1.1.2](http://backbonejs.org/): a JavaScript MVC framework for giving structure to (mobile) web apps
+* [RequireJS 2.1.11](http://requirejs.org/): a JavaScript file and module loader for keeping your Javascript codebase modular and well organized
+* [Handlebars 1.3.0](http://handlebarsjs.com/): a minimal templating engine based on Mustache
+* [Zepto 1.1.3](http://zeptojs.com/): minimalist JavaScript library for DOM traversing, event handling, animations, etc.
+* [Leaflet 0.7.2](http://leafletjs.com): a JavaScript library for embedding maps in your own web pages.
 
 App description
 ---------------
