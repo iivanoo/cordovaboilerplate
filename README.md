@@ -18,15 +18,6 @@ As a reference, give a look at the following features:
 * other useful functions are spread within the boilerplate, such as mobile-friendly CSS3 stylesheet, organization of the project in semantic directories (like: templates, js, img), etc.
 * other convenience JavaScript functions, such as the one for stripping XML-based strings, checking if a JS object is empty, and so on. 
 
-
-added the App global object,
-added the Utils module,
-refactored all the dependencies using the Require syntactic sugar (
-http://www.ericfeminella.com/blog/2012/05/17/organizing-require-js-depen
-dencies/ ),
-overridden the Backbone extend so that its objects can now be seen in
-the Chrome heap profiler (http://www.rombdn.com/)
-
 Please, if you find some bugs or aspects to be enhanced, drop be a line!
 
 Used frameworks
