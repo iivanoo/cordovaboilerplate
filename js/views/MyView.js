@@ -26,7 +26,8 @@ define(function(require) {
       // by convention, all the inner views of a view must be stored in this.subViews
     },
 
-    className: "content",
+    id: "myview",
+    className: "i-g page",
 
     events: {
       // "touchend #node_id": "handler"

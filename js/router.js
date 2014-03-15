@@ -10,6 +10,8 @@ define(function(require) {
 
   var AppRouter = Backbone.Router.extend({
 
+    constructorName: "AppRouter",
+
     routes: {
       "": "showStructure",
       "myview": "myView",
