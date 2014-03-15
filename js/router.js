@@ -25,6 +25,8 @@ define(function(require) {
     },
 
     myView: function() {
+      // highlight the nav1 tab bar element as the current one
+      this.structureView.setActiveTabBarElement("nav1");
       // create a model with an arbitrary attribute for testing the template engine
       var model = new MyModel({
         key: "testValue"
@@ -38,6 +40,8 @@ define(function(require) {
     },
 
     map: function() {
+      // highlight the nav2 tab bar element as the current one
+      this.structureView.setActiveTabBarElement("nav2");
       // create the view and show it
       var page = new MapView();
       this.changePage(page);

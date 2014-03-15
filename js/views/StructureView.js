@@ -12,8 +12,8 @@ define(function(require) {
     id: "main",
 
     events: {
-      "touchend #nav1": "map",
-      "touchend #nav2": "myView"
+      "touchend #nav1": "myView",
+      "touchend #nav2": "map"
     },
 
     initialize: function(options) {
@@ -38,6 +38,12 @@ define(function(require) {
     // generic go-back function
     goBack: function() {
       //window.history.back();
+    },
+
+    setActiveTabBarElement: function(elementId) {
+      // here we assume that at any time at least one tab bar element is active
+      document.getElementsByClassName("active")[0].classList.remove("active");
+      document.getElementById(elementId).classList.add("active");
     },
 
     map: function(event) {

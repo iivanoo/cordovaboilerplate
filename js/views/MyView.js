@@ -12,10 +12,6 @@ define(function(require) {
 
     model: MyModel,
 
-    // constructor: function MyView(attributes, options) {
-    //   return Backbone.Model.apply(this, arguments);
-    // },
-
     initialize: function() {
       // load the precompiled template
       this.template = Utils.templates.myview;
@@ -30,12 +26,18 @@ define(function(require) {
     className: "i-g page",
 
     events: {
-      // "touchend #node_id": "handler"
+      "touchend #goToMap": "goToMap"
     },
 
     render: function() {
       $(this.el).html(this.template(this.model.toJSON()));
       return this;
+    },
+
+    goToMap: function(e) {
+      Backbone.history.navigate("map", {
+        trigger: true
+      });
     }
   });
 
