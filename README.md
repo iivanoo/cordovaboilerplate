@@ -10,7 +10,7 @@ As a reference, give a look at the following features:
 * support for [SASS](http://sass-lang.com)
 * automatic precompilation of HTML5 templates, which are organized into a super simple map
 * an emulate.sh script for automatically building the project in Sublime ([see here](http://www.ivanomalavolta.com/how-to-automatically-run-and-refresh-the-ripple-emulator-from-sublime-text/))
-* all Require dependencies are organized using the comfortable [Require syntactic sugar](http://requirejs.org/docs/api.html#cjsmodule))
+* all Require dependencies are organized using the comfortable [Require syntactic sugar](http://requirejs.org/docs/api.html#cjsmodule)
 * minimal responsive grid system for quickly organizing contents in a 12-columns grid via [IceCream](http://html5-ninja.com/icecream/)
 * overridden the Backbone extend so that its objects can now be easily spotted in the Chrome heap profiler
 * a *close* method for closing each view and managing all its inner views and bound events
