@@ -8,6 +8,7 @@ The proposed boilerplate has been developed with **MODULARITY** and **PERFORMANC
 As a reference, give a look at the following features:
 * configuration map for keeping all the used libraries organized and easily interchangeable
 * support for [SASS](http://sass-lang.com)
+* integrated with the [Ratchet 2.0](https://github.com/twbs/ratchet) UI framework for mobile
 * automatic precompilation of HTML5 templates, which are organized into a super simple map
 * an emulate.sh script for automatically building the project in Sublime ([see here](http://www.ivanomalavolta.com/how-to-automatically-run-and-refresh-the-ripple-emulator-from-sublime-text/))
 * all Require dependencies are organized using the comfortable [Require syntactic sugar](http://requirejs.org/docs/api.html#cjsmodule)
