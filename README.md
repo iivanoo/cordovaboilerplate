@@ -43,4 +43,6 @@ The web app is purposefully super-simple, it shows:
 
 * a structural view containing the two basic views (it is supposed to be used as navigation hub)
 * the first view contains a string that can be filled dynamically by the Backbone model behind it
-* the second view shows a Leaflet map centered on L'Aquila, the city I currently live in 
+* the second view shows a Leaflet map centered on L'Aquila, the city I currently live in
+
+![Screenshots](http://t.co/i8QfCmqjAk "Screenshots")
