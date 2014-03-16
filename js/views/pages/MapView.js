@@ -6,7 +6,7 @@ define(function(require) {
   var L = require("leaflet");
   var Utils = require("utils");
 
-  var MapView = Backbone.View.extend({
+  var MapView = Utils.Page.extend({
 
     constructorName: "MapView",
 

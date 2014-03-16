@@ -3,10 +3,10 @@ define(function(require) {
   var $ = require("jquery");
   var _ = require("underscore");
   var Backbone = require("backbone");
-  var MyModel = require("models/mymodel");
+  var MyModel = require("models/MyModel");
   var Utils = require("utils");
 
-  var MyView = Backbone.View.extend({
+  var MyView = Utils.Page.extend({
 
     constructorName: "MyView",
 

@@ -5,14 +5,15 @@ define(function(require) {
   var Backbone = require("backbone");
   var MyModel = require("models/MyModel");
   var StructureView = require("views/StructureView");
-  var MyView = require("views/MyView");
-  var MapView = require("views/MapView");
+  var MyView = require("views/pages/MyView");
+  var MapView = require("views/pages/MapView");
 
   var AppRouter = Backbone.Router.extend({
 
     constructorName: "AppRouter",
 
     routes: {
+      // the default is the structure view
       "": "showStructure",
       "myview": "myView",
       "map": "map"
@@ -52,7 +53,8 @@ define(function(require) {
       if (!this.structureView) {
         this.structureView = new StructureView();
         // put the el element of the structure view into the DOM
-        document.getElementsByTagName('body')[0].appendChild(this.structureView.render().el);
+        document.body.appendChild(this.structureView.render().el);
+        this.structureView.trigger("inTheDOM");
       }
       // go to first view
       this.navigate(this.firstView, {trigger: true});
