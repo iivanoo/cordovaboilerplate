@@ -9,6 +9,7 @@ As a reference, give a look at the following features:
 * configuration map for keeping all the used libraries organized and easily interchangeable
 * support for [SASS](http://sass-lang.com)
 * integrated with the [Ratchet 2.0](https://github.com/twbs/ratchet) UI framework for mobile
+* support for the following gestures: tap, double tap, long tap, swipe (in alle directions), pinch in, pinch out. Gestures are managed via the -touch- and -gesture- extensions of Zepto.js
 * automatic precompilation of HTML5 templates, which are organized into a super simple map
 * an emulate.sh script for automatically building the project in Sublime ([see here](http://www.ivanomalavolta.com/how-to-automatically-run-and-refresh-the-ripple-emulator-from-sublime-text/))
 * all Require dependencies are organized using the comfortable [Require syntactic sugar](http://requirejs.org/docs/api.html#cjsmodule)
@@ -31,7 +32,7 @@ Used frameworks
 * [Backbone 1.1.2](http://backbonejs.org/): a JavaScript MVC framework for giving structure to (mobile) web apps
 * [RequireJS 2.1.11](http://requirejs.org/): a JavaScript file and module loader for keeping your Javascript codebase modular and well organized
 * [Handlebars 1.3.0](http://handlebarsjs.com/): a minimal templating engine based on Mustache
-* [Zepto 1.1.3](http://zeptojs.com/): minimalist JavaScript library for DOM traversing, event handling, animations, etc.
+* [Zepto 1.1.3](http://zeptojs.com/): minimalist JavaScript library for DOM traversing, event handling, animations, gestures, etc.
 * [Leaflet 0.7.2](http://leafletjs.com): a JavaScript library for embedding maps in your own web pages.
 
 App description
