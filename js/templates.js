@@ -10,6 +10,5 @@
 //  - value: the path of the html file containing the HTML fragment of the template
 define({
     structure: "templates/structure.html",
-    map: "templates/map.html",
     myview: "templates/myview.html"
 });

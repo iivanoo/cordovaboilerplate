@@ -13,14 +13,11 @@ define(function(require) {
     id: "map",
 
     initialize: function(options) {
-      // load the precompiled template
-      this.template = Utils.templates.map;
       // when I am in the DOM, I can start adding all the Leaflet stuff
       this.listenTo(this, "inTheDOM", this.addMap);
     },
 
     render: function() {
-      $(this.el).html(this.template({}));
       return this;
     },
 
