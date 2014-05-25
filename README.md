@@ -11,6 +11,7 @@ As a reference, give a look at the following features:
 * integrated with the [Ratchet 2.0](https://github.com/twbs/ratchet) UI framework for mobile
 * support for the following gestures: tap, double tap, long tap, swipe (in alle directions), pinch in, pinch out. Gestures are managed via the -touch- and -gesture- extensions of Zepto.js
 * automatic precompilation of HTML5 templates, which are organized into a super simple map
+* automatic preloading of static images, so that they do not flicker when being loaded the first time (via Dimitar Christoff's [pre-loader](https://github.com/DimitarChristoff/pre-loader)) 
 * an emulate.sh script for automatically building the project in Sublime ([see here](http://www.ivanomalavolta.com/how-to-automatically-run-and-refresh-the-ripple-emulator-from-sublime-text/))
 * all Require dependencies are organized using the comfortable [Require syntactic sugar](http://requirejs.org/docs/api.html#cjsmodule)
 * minimal responsive grid system for quickly organizing contents in a 12-columns grid via [IceCream](http://html5-ninja.com/icecream/)

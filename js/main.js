@@ -10,6 +10,7 @@ require.config({
     templates: '../templates',
     leaflet: '../lib/leaflet/leaflet',
     spin: '../lib/spin/spin.min',
+    preloader: '../lib/preloader/pre-loader',
     utils: '../lib/utils/utils'
   },
   shim: {
@@ -30,18 +31,32 @@ require.config({
 
 // We launch the App
 require(['underscore', 'backbone', 'utils'], function(_, Backbone, Utils) {
-  require(['router'], function(AppRouter) {
-    
+  require(['preloader', 'router'], function(PreLoader, AppRouter) {
+
     document.addEventListener("deviceready", run, false);
 
     function run() {
 
-      // Here we precompile ALL the templates so that the app will be much quickier when switching views
+      // Here we precompile ALL the templates so that the app will be quickier when switching views
       // see utils.js
       Utils.loadTemplates().once("templatesLoaded", function() {
-        // launch the router
-        var router = new AppRouter();
-        Backbone.history.start();
+
+      var images = []; // here the developer can add the paths to the images that he would like to be preloaded
+
+      if (images.length) {
+          new PreLoader(images, {
+            onComplete: startRouter
+          });
+        } else {
+          // start the router directly if there are no images to be preloaded
+          startRouter();
+        }
+
+        function startRouter() {
+          // launch the router
+          var router = new AppRouter();
+          Backbone.history.start();
+        }
       });
     }
   });
