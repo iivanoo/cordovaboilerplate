@@ -14,7 +14,6 @@ As a reference, give a look at the following features:
 * an emulate.sh script for automatically building the project in Sublime ([see here](http://www.ivanomalavolta.com/how-to-automatically-run-and-refresh-the-ripple-emulator-from-sublime-text/))
 * all Require dependencies are organized using the comfortable [Require syntactic sugar](http://requirejs.org/docs/api.html#cjsmodule)
 * minimal responsive grid system for quickly organizing contents in a 12-columns grid via [IceCream](http://html5-ninja.com/icecream/)
-* if the app is running on an iOS 7 device, then we automatically add the 20px margin for the iOS 7 status bar
 * overridden the Backbone extend so that its objects can now be easily spotted in the Chrome heap profiler
 * included the concept of *Page*, it extends Backbone.View and represents a full screen of the mobile application, it can be used for customly manage in the future the navigation between pages of the app 
 * a *close* method for closing each view and managing all its inner views and bound events
