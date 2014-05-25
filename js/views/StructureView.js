@@ -19,7 +19,7 @@ define(function(require) {
     initialize: function(options) {
       // load the precompiled template
       this.template = Utils.templates.structure;
-      this.on("inTheDOM", this.rendered);
+      //this.on("inTheDOM", this.rendered);
       // bind the back event to the goBack function
       //document.getElementById("back").addEventListener("back", this.goBack(), false);
     },
@@ -32,14 +32,8 @@ define(function(require) {
       return this;
     },
 
-    rendered: function(e) {
-      // if the app is running on an iOS 7 device, then we add the 20px margin for the iOS 7 status bar
-      if(device.platform == "iOS" && device.version.startsWith("7.")) {
-        document.body.style.marginTop = "20px";
-        document.body.style.height = "calc(100% - 20px)";
-        document.getElementsByTagName("header")[0].style.marginTop = "20px";
-      }
-    },
+    // rendered: function(e) {
+    // },
 
     // generic go-back function
     goBack: function() {
