@@ -30,7 +30,7 @@ require.config({
 });
 
 // We launch the App
-require(['underscore', 'backbone', 'utils'], function(_, Backbone, Utils) {
+require(['backbone', 'utils'], function(Backbone, Utils) {
   require(['preloader', 'router'], function(PreLoader, AppRouter) {
 
     document.addEventListener("deviceready", run, false);

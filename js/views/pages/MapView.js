@@ -1,7 +1,5 @@
 define(function(require) {
 
-  var $ = require("jquery");
-  var _ = require("underscore");
   var Backbone = require("backbone");
   var L = require("leaflet");
   var Utils = require("utils");
