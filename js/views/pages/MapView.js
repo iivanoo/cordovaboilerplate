@@ -20,9 +20,15 @@ define(function(require) {
     },
 
     addMap: function() {
+
       // the center of the map is the address of the University of L'Aquila
+      var mapCenter = {
+        lat: 42.3676443,
+        lon: 13.3496695
+      };
+
       var options = {
-        center: new L.LatLng(42.3676443, 13.3496695),
+        center: new L.LatLng(mapCenter.lat, mapCenter.lon),
         zoom: 12
       };
 
@@ -32,20 +38,7 @@ define(function(require) {
       map.attributionControl.setPrefix("Leaflet");
 
       // create a marker and add it to the map
-      L.marker([42.3676443, 13.3496695]).addTo(map);
-
-      // create an icon for showing the user its current location
-      var positionIcon = L.icon({
-        iconUrl: './img/hereIcon.png',
-        iconSize: [20, 20],
-      });
-
-      // get the current location of the user
-      navigator.geolocation.getCurrentPosition(function(position) {
-        L.marker([position.coords.latitude, position.coords.longitude], {
-          icon: positionIcon
-        }).addTo(map);
-      }, function() {});
+      L.marker([mapCenter.lat, mapCenter.lon]).addTo(map);
 
       // add a layer showing Open Street Map's tiles
       var layer = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
