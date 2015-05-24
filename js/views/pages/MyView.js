@@ -28,7 +28,7 @@ define(function(require) {
     className: "i-g page",
 
     events: {
-      "touchend #goToMap": "goToMap"
+      "tap #goToMap": "goToMap"
     },
 
     render: function() {

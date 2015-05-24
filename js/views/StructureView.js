@@ -11,8 +11,8 @@ define(function(require) {
     id: "main",
 
     events: {
-      "touchend #nav1": "myView",
-      "touchend #nav2": "map"
+      "tap #nav1": "myView",
+      "tap #nav2": "map"
     },
 
     initialize: function(options) {
