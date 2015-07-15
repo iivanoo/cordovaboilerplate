@@ -1,7 +1,7 @@
 Cordova Boilerplate
 ==================
 
-An extremely simple [Cordova](http://cordova.apache.org/) app that can be used as boilerplate for apps developed with modularity and performance in mind.
+An extremely simple [Apache Cordova](http://cordova.apache.org/) app that can be used as boilerplate for apps developed with modularity and performance in mind.
 
 The proposed boilerplate has been developed with **MODULARITY** and **PERFORMANCE** in mind, it should be totally memory leaks free and ready-to-be-used in production. 
 
