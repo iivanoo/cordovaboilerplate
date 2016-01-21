@@ -1,0 +1,12 @@
+<!-- row item -->
+	<div class="simple_text_list">
+		<div class="agenda_list_title">{{ titolo }}</div>
+		<p class="agenda_list_content">{{ descrizione }}</p>
+		<p class="agenda_list_dots">
+		...
+	</p> 
+	</div>
+	<div class="agenda_arrow_wrapper">
+			<img src="img/but_go.png">
+		</div>
+<!-- row item -->

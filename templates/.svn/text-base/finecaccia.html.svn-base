@@ -1,0 +1,38 @@
+<div class="backgr_buttons_finecaccia">
+</div>
+<div class="greybar">
+			Complimenti sei riuscito ad arrivare alla soluzione!
+		</div>
+<div class="caption_block">
+		<div class="caption_content">
+			<div id="wrap_risultato">
+				<p>
+					Il tuo tempo totale è 
+				</p>
+				<div id="totalScore"> {{ totalScore }}</div>
+			</div>
+			
+			<p>
+				Resta in contatto con noi per scoprire altre novità emozionanti!
+			</p>
+			<div class="readmore cacciatesoro_but vai" id="vai">
+					www.frascatiscienza.it
+			</div>
+		</div>
+		
+		<p>
+			<p >
+				<span style="font-weight:bold;">Credits:</span>
+
+				<p>Caccia al Tesoro<br/>
+				Contenuti Scientifici e Soggetto: Marco Faccini, Roberto Maggi<br/>
+				Regia: Marco Maiello<br/>
+				Raniero Samorì: Fulvio Maura<br/>
+				Aiuto Regia: Marzia Agostini<br/>
+				Adattamento Testi: Maria Laura Conciatore</p>
+
+
+
+		</p>
+		
+	</div>

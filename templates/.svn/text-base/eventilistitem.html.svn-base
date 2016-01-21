@@ -1,0 +1,24 @@
+<!-- row item -->
+<div class="eventlist_wrapper">
+	<div class="eventlist_title">
+		{{ titolo }}
+	</div>
+	<div class="eventlist_time">
+		{{ date }} alle ore {{ time }}
+	</div>
+	<p class="eventlist_content">
+		{{{ descrizione }}}
+	</p>
+	<p class="eventlist_dots">
+		...
+	</p> 
+	<div class="symbols_wrapper">
+		{{#each tag}}
+  			<div class="symbol {{ this }}"></div>
+  		{{/each}}
+	</div>
+</div>
+<div class="event_arrow_wrapper">
+	<img src="img/but_go.png">
+</div>
+<!-- row item -->

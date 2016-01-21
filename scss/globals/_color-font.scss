@@ -1,0 +1,21 @@
+/* 
+    Created on : 19-gen-2016, 19.30.44
+    Author     : Andrea
+*/
+/*PALETTA DEI COLORI*/
+
+$primary-color-dark:   #00796B;
+$primary-color:        #009688;
+$primary-color-light:  #B2DFDB;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #9E9E9E;
+$primary-text-color:   #212121;
+$secondary-text-color: #727272;
+$divider-color:        #B6B6B6;
+
+/* CUSTOM FONTS */
+@font-face {
+	font-family:'Dax';
+	src: url('../fonts/DaxBold.ttf') format('truetype');
+}
+/* END CUSTOM FONTS */

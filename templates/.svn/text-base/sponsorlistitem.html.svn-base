@@ -1,0 +1,20 @@
+<!-- row item -->
+		{{#if immagine}}
+		<div class="img_wrapper">
+			<img src="{{ immagine }}" onerror="ImgError(this);">
+		</div>
+		{{/if}}	
+		<div class="textlist_wrapper">
+			<p class="textlist_title">
+				{{ nome }}
+			</p>
+			
+		</div>
+		
+		<div class="icon_map_sponsor"></div>
+		<div class="icon_www_sponsor"></div>
+		
+<!-- 		<div class="arrow_wrapper">
+			<img src="img/but_go.png">
+		</div> -->
+<!-- row item -->

@@ -1,0 +1,137 @@
+/* 
+    Created on : 19-gen-2016, 20.01.44
+    Author     : Andrea
+*/
+.univapp-header-nav{
+    position : absolute;
+    top : 0;
+    left : 0;
+    right : 0;
+    text-align: center;
+    height: $univapp-header-height;
+    line-height: $univapp-header-height;
+    background-color: $primary-color-dark;
+    color : $primary-color-text;
+}
+.univapp-header-btn{
+    position : absolute;
+    top : $univapp-header-height;
+    left : 0;
+    right : 0;
+    text-align: center;
+    height: $univapp-header-btn-height;
+    line-height: $univapp-header-height;
+    background-color: $primary-color-dark;
+    transition-duration: 0.5s; 
+    &.aperto{
+        transform: translate(0,$univapp-header-height);
+        transition-duration: 0.5s;
+    }
+}
+#content.univapp-container{
+    height: 100%;
+    position: absolute;
+    top: 100px;
+    padding-bottom : $univapp-header-height+$univapp-header-height;
+    overflow: auto;
+    transition-duration: 0.5s;
+    &.aperto{
+        padding-bottom : $univapp-header-height+$univapp-header-menu-height+$univapp-header-height;
+        transform: translate(0,$univapp-header-height);
+        transition-duration: 0.5s;
+    }
+}
+.myhrmenu-box{
+    height: $univapp-header-height;
+    width: $univapp-header-height;
+    padding: 12px 14px;
+    &.aperto{
+        .myhrmenu2{
+            transform: rotate(45deg);
+            transition-duration: 0.5s;
+            position: relative;
+            top: 6px;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+        .myhrmenu3{
+            transform: rotate(-45deg);
+            transition-duration: 0.5s;
+        }
+        .myhrmenu1{
+            display:none;
+            transition-duration: 0.5s;
+        }
+    }
+}
+
+
+.myhrmenu,
+.myhrmenu1,
+.myhrmenu2,
+.myhrmenu3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid $primary-color-text;
+    border-radius : 100px;
+    transition-duration: 0.5s;
+}
+.myhrmenu-x{
+    position: relative;
+    top :0;
+    right: 0;
+    width: 10px;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+}
+.myhrmenu-xx{
+    bottom : 0;
+    right: 0;
+    width: 10px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+.myhrmenu-box-back{
+    padding: 15px;
+    height: $univapp-header-height;
+    width : $univapp-header-height;
+}
+.univapp-header-button{
+    width : 50%;
+    height: ($univapp-header-btn-height)-$line-selector-height;
+    text-align: center;
+    color : $primary-color-text;
+}
+.line-selector{
+    position: absolute;
+    height: $line-selector-height;
+    width: 50%;
+    background-color: $primary-color;
+    bottom : 0;
+    transition-duration: 0.5s;
+    &.offerte{
+    }
+    &.richieste{
+        transform: translate(100%);
+        transform-origin: left;
+    }
+}
+.menu-row{
+    height: $univapp-header-menu-height;
+    line-height: $univapp-header-menu-height;
+    width: 100%;
+    background-color : $primary-color;
+    transform: translate(0,$univapp-header-height);
+    transition-duration: 5s;
+    //display : none;
+    &.aperto{
+    position: absolute;
+        transform: translate(0,$univapp-header-height);
+        transition-duration: 0.5s;
+
+        display : block;
+    }
+}
