@@ -21,14 +21,14 @@ body {
 
 /* END STANDARD MOBILE */
 
+/* CUSTOM FONTS */
 
-/* SCSS PARTIALS IMPORT */
+@font-face {
+	font-family:'Dax';
+	src: url('../fonts/DaxBold.ttf') format('truetype');
+}
 
-@import 'globals/base.scss';
-@import 'globals/color-font.scss';
-@import 'partials/homepage.scss';
-@import 'partials/navbar-header.scss';
-/* END SCSS PARTIALS INCLUDE */
+/* END CUSTOM FONTS */
 
 /* START STRUCTURE */
 

@@ -26,34 +26,27 @@ ivanomalavolta@gmail.com
 
 25488cf3-2eb6-1e49-65c8-c6d6839316a7
 
-backbone
-dir
-
-bootstrap
-dir
-
-
-
-add
-
-cordova
+jquery
 dir
 
 handlebars
 dir
 
-jquery
-dir
-
-leaflet
-dir
-
-require
+backbone
 dir
 
 spin
 dir
 
 underscore
+dir
+
+require
+dir
+
+leaflet
+dir
+
+cordova
 dir
 
