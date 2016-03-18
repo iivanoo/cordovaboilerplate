@@ -15,7 +15,7 @@ define(function(require) {
       // the default is the structure view
       "": "showStructure",
       "myview": "myView",
-      "map": "map"
+      "map": "map", 
     },
 
     firstView: "myview",
@@ -29,14 +29,17 @@ define(function(require) {
       this.structureView.setActiveTabBarElement("nav1");
       // create a model with an arbitrary attribute for testing the template engine
       var model = new MyModel({
-        key: "testValue"
+        key: "testValue",
+        name: "ciao"
       });
       // create the view
-      var page = new MyView({
-        model: model
-      });
-      // show the view
-      this.changePage(page);
+        var page = new MyView({
+          model: model
+        });
+        //trigger a custom event for data ready
+        $(document).trigger("dataReady");
+        // show the view
+        this.changePage(page);
     },
 
     map: function() {
@@ -57,7 +60,7 @@ define(function(require) {
       }
       // go to first view
       this.navigate(this.firstView, {trigger: true});
-    },
+    }
 
   });
 

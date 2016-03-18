@@ -3,7 +3,7 @@ define(function(require) {
   var Backbone = require("backbone");
   var MyModel = require("models/MyModel");
   var Utils = require("utils");
-
+  
   var MyView = Utils.Page.extend({
 
     constructorName: "MyView",
@@ -11,8 +11,13 @@ define(function(require) {
     model: MyModel,
 
     initialize: function() {
-      // load the precompiled template
-      this.template = Utils.templates.myview;
+      $(document).on("dataReady", function(){
+        // load the precompiled template if we have a data
+        this.template = Utils.templates.myview;
+        console.log("entro qui dentro");
+      });
+      //load the empty precompiled template if we don't have a data
+        this.template = Utils.templates.submyview;
       // here we can register to inTheDOM or removing events
       // this.listenTo(this, "inTheDOM", function() {
       //   $('#content').on("swipe", function(data){

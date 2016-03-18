@@ -33,7 +33,9 @@ require.config({
 require(['backbone', 'utils'], function(Backbone, Utils) {
   require(['preloader', 'router'], function(PreLoader, AppRouter) {
 
-    document.addEventListener("deviceready", run, false);
+    //N.B. commentare la funzione run(); e decommentare deviceready quando si esegue il deploy su device
+    run();
+   // document.addEventListener("deviceready", run, false);
 
     function run() {
 
@@ -61,3 +63,4 @@ require(['backbone', 'utils'], function(Backbone, Utils) {
     }
   });
 });
+
