@@ -63,4 +63,58 @@ require(['backbone', 'utils'], function(Backbone, Utils) {
     }
   });
 });
-
+//user management
+var userManagement = (function () {
+    var instance;
+ 
+    function createInstance() {
+        var logged = isLogged();
+        var personalData = personalData();
+      function readCookie(nome){
+        if (document.cookie.length > 0){
+          var first = document.cookie.indexOf(nome + "=");
+          if (first != -1){
+            first = first + nome.length + 1;
+            var end = document.cookie.indexOf(";",first);
+            if (end == -1) end = document.cookie.length;
+            return unescape(document.cookie.substring(first,end));
+          }else{
+            return "";
+          }
+        }
+        return "";
+      }
+      function isLogged(){
+        var bool = readCookie('logged');
+        if(bool){
+            return "yes";
+        } else {
+            return "no";
+        }
+      } 
+      function personalData(){
+        var data = readCookie('personaldata');
+        return data;
+      }
+      var object = {"is logged": logged, "personal data": personalData};
+        return object;
+    }
+ 
+    return {
+        getInstance: function () {
+           if (!instance) {
+                instance = createInstance();
+            }
+            return instance;
+            
+        }
+    };
+})();
+ 
+/*$(document).ready(function() {
+ 
+    var instance1 = userManagement.getInstance("mario");
+    var instance2 = userManagement.getInstance("alessia"); 
+    console.log(instance1);
+    console.log(instance2);
+});*/
