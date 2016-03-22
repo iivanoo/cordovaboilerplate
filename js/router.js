@@ -39,7 +39,7 @@ define(function(require) {
         //trigger a custom event for data ready
         $(document).trigger("dataReady");
         // show the view
-        this.changePage(page);
+        this.changePage(page, "fade");
     },
 
     map: function() {
