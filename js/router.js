@@ -15,7 +15,7 @@ define(function(require) {
       // the default is the structure view
       "": "showStructure",
       "myview": "myView",
-      "map": "map", 
+      "map": "map" 
     },
 
     firstView: "myview",
@@ -39,7 +39,7 @@ define(function(require) {
         //trigger a custom event for data ready
         $(document).trigger("dataReady");
         // show the view
-        this.changePage(page, "fade");
+        this.changePage(page);
     },
 
     map: function() {
@@ -47,7 +47,7 @@ define(function(require) {
       this.structureView.setActiveTabBarElement("nav2");
       // create the view and show it
       var page = new MapView();
-      this.changePage(page);
+      this.changePage(page, "fade");
     },
 
     // load the structure view
