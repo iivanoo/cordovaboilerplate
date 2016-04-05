@@ -47,7 +47,7 @@ define(function(require) {
       this.structureView.setActiveTabBarElement("nav2");
       // create the view and show it
       var page = new MapView();
-      this.changePage(page, "fade");
+      this.changePage(page, "slide", "left");
     },
 
     // load the structure view
