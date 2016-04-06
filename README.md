@@ -7,10 +7,11 @@ The proposed boilerplate has been developed with **MODULARITY** and **PERFORMANC
 
 As a reference, give a look at the following features:
 * configuration map for keeping all the used libraries organized and easily interchangeable
+* support for [Backbone](http://backbonejs.org/)
 * support for [SASS](http://sass-lang.com)
-* integrated with the [Ratchet 2.0.2](https://github.com/twbs/ratchet) UI framework for mobile
-* integrated with [Leaflet 0.7.3](http://leafletjs.com), the mobile-friendly JavaScript library for embedding maps in your web app
-* integrated with the [Underscore 1.8.3](http://underscorejs.org) utility JavaScript library
+* integrated with the [Ratchet](https://github.com/twbs/ratchet) UI framework for mobile
+* integrated with [Leaflet](http://leafletjs.com), the mobile-friendly JavaScript library for embedding maps in your web app
+* integrated with the [Underscore](http://underscorejs.org) utility JavaScript library
 * support for the following gestures: tap, double tap, long tap, swipe (in alle directions), pinch in, pinch out. Gestures are managed via the -touch- and -gesture- extensions of Zepto.js
 * automatic precompilation of HTML5 templates, which are organized into a super simple map
 * automatic preloading of static images, so that they do not flicker when being loaded the first time (via Dimitar Christoff's [pre-loader](https://github.com/DimitarChristoff/pre-loader)) 
