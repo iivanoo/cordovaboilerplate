@@ -119,3 +119,9 @@ body {
     overflow: hidden;
 }
 /* END SLIDE EFFECT */
+
+/* FLIP EFFECT */
+.flipped {
+    transform: rotateY( 180deg );
+}
+/* END FLIP EFFECT*/
