@@ -121,7 +121,13 @@ body {
 /* END SLIDE EFFECT */
 
 /* FLIP EFFECT */
-.flipped {
-    transform: rotateY( 180deg );
+.flipped-top {
+    transform: rotateX(180deg );
+}
+.flipped-left {
+    transform: rotateY(180deg );
+}
+.flipped-rotate {
+    transform: rotateZ(180deg );
 }
 /* END FLIP EFFECT*/
