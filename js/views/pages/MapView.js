@@ -41,10 +41,11 @@ define(function(require) {
       L.marker([mapCenter.lat, mapCenter.lon]).addTo(map);
 
       // add a layer showing Open Street Map's tiles
-      var layer = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: 'Map data &copy; OpenStreetMap',
-        maxZoom: 20
-      });
+      var layer = L.tileLayer(
+        'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: 'Map data &copy; OpenStreetMap',
+          maxZoom: 20
+        });
       map.addLayer(layer);
     }
   });
