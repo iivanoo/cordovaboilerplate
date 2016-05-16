@@ -64,36 +64,25 @@ require(['backbone', 'utils'], function(Backbone, Utils) {
   });
 });
 //user management
+// set data to localstorage
+localStorage.setItem('personalData', JSON.stringify({
+    name: 'lorenzo', 
+    congome : "Di Cola"}
+));
+localStorage.setItem('logged', 'yes');
+// singleton to read data in localstorage
 var userManagement = (function () {
     var instance;
  
     function createInstance() {
         var logged = isLogged();
         var personalData = personalData();
-      function readCookie(nome){
-        if (document.cookie.length > 0){
-          var first = document.cookie.indexOf(nome + "=");
-          if (first != -1){
-            first = first + nome.length + 1;
-            var end = document.cookie.indexOf(";",first);
-            if (end == -1) end = document.cookie.length;
-            return unescape(document.cookie.substring(first,end));
-          }else{
-            return "";
-          }
-        }
-        return "";
-      }
       function isLogged(){
-        var bool = readCookie('logged');
-        if(bool){
-            return "yes";
-        } else {
-            return "no";
-        }
+        var bool = localStorage.getItem('logged');
+        return bool;
       } 
       function personalData(){
-        var data = readCookie('personaldata');
+        var data = localStorage.getItem('personalData');
         return data;
       }
       var object = {"is logged": logged, "personal data": personalData};
@@ -109,12 +98,5 @@ var userManagement = (function () {
             
         }
     };
-})();
+});
  
-/*$(document).ready(function() {
- 
-    var instance1 = userManagement.getInstance("mario");
-    var instance2 = userManagement.getInstance("alessia"); 
-    console.log(instance1);
-    console.log(instance2);
-});*/
