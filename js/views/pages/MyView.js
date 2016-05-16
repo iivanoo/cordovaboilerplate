@@ -11,9 +11,10 @@ define(function(require) {
     model: MyModel,
 
     initialize: function() {
+      var that = this;
       $(document).on("dataReady", function(){
         // load the precompiled template if we have a data
-        this.template = Utils.templates.myview;
+        that.template = Utils.templates.myview;
         console.log("entro qui dentro");
       });
       //load the empty precompiled template if we don't have a data
