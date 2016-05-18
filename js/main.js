@@ -60,20 +60,25 @@ require(['backbone', 'utils'], function(Backbone, Utils) {
           Backbone.history.start();
         }
       });
+        //chiamata per il singleton dello user management
+//        var instance1 = userManagement.getInstance();
+//        console.log(instance1, 'istanza user management');
     }
   });
 });
 //user management
 // set data to localstorage
 localStorage.setItem('personalData', JSON.stringify({
-    name: 'lorenzo', 
-    congome : "Di Cola"}
+    name: 'Lorenzo', 
+    congome : "Di Cola",
+    matricola : "219167",
+    facolta : "informatica"
+}
 ));
 localStorage.setItem('logged', 'yes');
 // singleton to read data in localstorage
 var userManagement = (function () {
     var instance;
- 
     function createInstance() {
         var logged = isLogged();
         var personalData = personalData();
@@ -95,7 +100,6 @@ var userManagement = (function () {
                 instance = createInstance();
             }
             return instance;
-            
         }
     };
-});
+})();
