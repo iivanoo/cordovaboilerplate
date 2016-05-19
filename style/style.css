@@ -116,6 +116,6 @@ body {
     transform: rotateY(180deg );
 }
 .flipped-rotate {
-    transform: rotateZ(180deg );
+    transform: rotateZ(360deg );
 }
 /* END FLIP EFFECT*/
