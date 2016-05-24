@@ -12,7 +12,8 @@ define(function(require) {
 
     initialize: function() {
       var that = this;
-      $(document).on("dataReady", function(){
+      var instance = Utils.PubSubEvent.getInstance(); //instance singleton event object 
+      instance.on("dataReady", function(){
         // load the precompiled template if we have a data
         that.template = Utils.templates.myview;
         console.log("entro qui dentro");

@@ -62,7 +62,7 @@ require(['backbone', 'utils'], function(Backbone, Utils) {
       });
         //chiamata per il singleton dello user management
 //        var instance1 = userManagement.getInstance();
-//        console.log(instance1, 'istanza user management');
+//        console.log(instance1, 'utente 1 local storage');
     }
   });
 });

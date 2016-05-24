@@ -6,6 +6,7 @@ define(function(require) {
   var StructureView = require("views/StructureView");
   var MyView = require("views/pages/MyView");
   var MapView = require("views/pages/MapView");
+  var Utils = require("utils");
 
   var AppRouter = Backbone.Router.extend({
 
@@ -37,7 +38,8 @@ define(function(require) {
           model: model
         });
         //trigger a custom event for data ready
-        $(document).trigger("dataReady");
+        var instance = Utils.PubSubEvent.getInstance();
+        instance.trigger('dataReady');
         // show the view
         this.changePage(page);
     },
@@ -47,7 +49,7 @@ define(function(require) {
       this.structureView.setActiveTabBarElement("nav2");
       // create the view and show it
       var page = new MapView();
-      this.changePage(page, "flip", "rotate");
+      this.changePage(page);
     },
 
     // load the structure view
