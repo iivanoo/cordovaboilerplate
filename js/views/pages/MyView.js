@@ -11,8 +11,7 @@ define(function(require) {
     model: MyModel,
 
     initialize: function() {
-      var that = this;
-      var instance = Utils.PubSubEvent.getInstance(); //instance singleton event object 
+      var that = this; 
       instance.on("dataReady", function(){
         // load the precompiled template if we have a data
         that.template = Utils.templates.myview;

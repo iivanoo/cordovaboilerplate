@@ -38,7 +38,6 @@ define(function(require) {
           model: model
         });
         //trigger a custom event for data ready
-        var instance = Utils.PubSubEvent.getInstance();
         instance.trigger('dataReady');
         // show the view
         this.changePage(page);
