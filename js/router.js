@@ -2,11 +2,11 @@ define(function(require) {
 
   var $ = require("jquery");
   var Backbone = require("backbone");
+  var Utils = require("utils");
   var MyModel = require("models/MyModel");
   var StructureView = require("views/StructureView");
   var MyView = require("views/pages/MyView");
   var MapView = require("views/pages/MapView");
-  var Utils = require("utils");
 
   var AppRouter = Backbone.Router.extend({
 
@@ -16,7 +16,7 @@ define(function(require) {
       // the default is the structure view
       "": "showStructure",
       "myview": "myView",
-      "map": "map" 
+      "map": "map"
     },
 
     firstView: "myview",
@@ -40,7 +40,7 @@ define(function(require) {
         //trigger a custom event for data ready
         instance.trigger('dataReady');
         // show the view
-        this.changePage(page);
+        this.changePage(page, "slide", "left");
     },
 
     map: function() {
@@ -48,9 +48,8 @@ define(function(require) {
       this.structureView.setActiveTabBarElement("nav2");
       // create the view and show it
       var page = new MapView();
-      this.changePage(page, 'slide', 'up');
+      this.changePage(page, 'fade');
     },
-
     // load the structure view
     showStructure: function() {
       if (!this.structureView) {
