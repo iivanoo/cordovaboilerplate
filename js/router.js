@@ -40,7 +40,7 @@ define(function(require) {
         //trigger a custom event for data ready
         instance.trigger('dataReady');
         // show the view
-        this.changePage(page, "slide", "left");
+        this.changePage(page, "slide", "up");
     },
 
     map: function() {
@@ -48,7 +48,7 @@ define(function(require) {
       this.structureView.setActiveTabBarElement("nav2");
       // create the view and show it
       var page = new MapView();
-      this.changePage(page, 'fade');
+      this.changePage(page, "flip", "top");
     },
     // load the structure view
     showStructure: function() {
@@ -63,7 +63,6 @@ define(function(require) {
     }
 
   });
-
   return AppRouter;
 
 });

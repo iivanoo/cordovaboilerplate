@@ -28,7 +28,7 @@ require.config({
     }
   }
 });
-
+app={};
 // We launch the App
 require(['backbone', 'utils'], function(Backbone, Utils) {
   require(['preloader', 'router'], function(PreLoader, AppRouter) {
@@ -62,9 +62,10 @@ require(['backbone', 'utils'], function(Backbone, Utils) {
       });
       // global var that instance singleton event object
        instance = Utils.PubSubEvent.getInstance();
+ 
         //chiamata per il singleton dello user management
-//        var instance1 = userManagement.getInstance();
-//        console.log(instance1, 'utente 1 local storage');
+        var instance1 = userManagement.getInstance();
+        console.log(instance1, 'utente 1 local storage');
     }
   });
 });
